@@ -125,10 +125,10 @@ namespace FTP
 
             return names.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries).ToList();
         }
+
         static void Main(string[] args)
         {
-            DeleteFtpDir("/Windows");
-            Console.WriteLine("deleted");
+            Console.WriteLine("Try to edit code and call methods from Program.");
         }
     }
 }
